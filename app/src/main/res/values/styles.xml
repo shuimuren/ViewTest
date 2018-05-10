@@ -1,0 +1,36 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <declare-styleable name="user_view">
+        <!-- reference：指定Theme 中的资源ID -->
+        <attr name="label" format="reference"/>
+        <!-- color :颜色 -->
+        <attr name="color" format="color"/>
+        <!-- boolean:布尔值 -->
+        <attr name="booleanValue" format="boolean"/>
+        <!-- dimension: 尺寸-->
+        <attr name="dimension" format="dimension"/>
+        <!-- float:浮点型 -->
+        <attr name="floatValue" format="float"/>
+        <!-- integer:整形 -->
+        <attr name="intValue" format="integer"/>
+        <!-- String：字符串 -->
+        <attr name="StringValue" format="string"/>
+        <!-- fraction: 百分数 -->
+        <attr name="fractionValue" format="fraction"/>
+        <!-- enum:枚举 -->
+        <!--<attr name="enumValue" format="enum">-->
+            <!--<enum name="baidu" value="baidu"/>-->
+            <!--<enum name="google" value="google"/>-->
+        <!--</attr>-->
+        <!-- flag:位或运算 -->
+    </declare-styleable>
+
+</resources>
